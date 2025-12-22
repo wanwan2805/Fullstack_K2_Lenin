@@ -4,9 +4,10 @@
 }
 
 body {
+
   background: #fff;
   min-height: 100vh;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: flex-start;
   padding-top: 30px;
@@ -22,7 +23,7 @@ body {
 }
 
 /* Tiêu đề */
-.container h1 {
+.container h2 {
   margin-bottom: 10px;
   font-size: 36px;
 }
