@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>HTML FORM</h1>
+    <form action="" method="">
+      <div>
+        <label for="fullname">Fullname</label>
+        <input
+          type="text"
+          name="fullname"
+          placeholder="Vui long nhập fullname"
+          id="fullname"
+          value=""
+        />
+      </div>
+      <div>
+        <label for="email">email</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Vui long nhập email"
+          id="email"
+          value=""
+        />
+      </div>
+      <div>
+        <label for="password">password</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Vui long nhập password"
+          id="password"
+          value=""
+        />
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input
+          type="number"
+          name="age"
+          placeholder="Vui long nhập tuoi"
+          id="age"
+          value=""
+        />
+      </div>
+      <div>
+        <label for="avatar">Avartar</label>
+        <input type="file" name="avatar" />
+      </div>
+      <div>
+        <label>Giới tính</label>
+        <label>
+          <input type="radio" name="gender" value="unknown" />không biết
+        </label>
+        <label> <input type="radio" name="gender" value="male" />Nam </label>
+        <label> <input type="radio" name="gender" value="female" />Nữ </label>
+      </div>
+      <div>
+        <label>Nguồn</label>
+        <label>
+          <input type="checkbox" name="source" value="facebook" />Facebook
+        </label>
+        <label>
+          <input type="checkbox" name="source" value="google" />Google</label
+        >
+        <label>
+          <input type="checkbox" name="source" value="website" />Website</label
+        >
+      </div>
+      <!-- <div>
+        <label for="province">Tỉnh/thành phố</label>
+        <select name="province" id="province" multiple> 
+          <option value="0">Chọn Tỉnh/Thành phố</option>
+          <option value="1">Hà Nội</option>
+          <option value="2" selected>ĐÀ Nẵng</option>
+          <option value="3">Hồ Chí Minh</option>
+        </select>
+      </div> -->
+      <div>
+        <label for="nessage">Tin nhắn</label>
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Tin nhắn.."
+          cols="30"
+          rows="5"
+        ></textarea>
+      </div>
+      <button type="submit">Submit</button>
+      <button type="button">Button</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
