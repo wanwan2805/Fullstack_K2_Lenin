@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+
+}
+h2 {
+    color: rgb(122, 170, 212);
+}
+span {
+    background: #c9c9e6;
+}
+.text-link {
+  text-decoration: underline;
+}
+.promo-box {
+  margin-top: 30px;
+  padding: 20px 28px;
+  border: 2px solid #c9c9e6;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.promo-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
