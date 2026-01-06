@@ -1,0 +1,25 @@
+/* 
+width: thiết lập chiều rộng
+height: thiết lập chiều cao
+Nếu dùng đơn vị phần trăm -> tỷ lệ kích thước với thành phần cha
+-width , height chỉ hoạt động với thẻ block
+
+
+đơn vị : vw, vh
+-vw: tỷ lệ theo width của viewport
+-vh: tỷ lệ theo height của viewport
+-max-width
+-min-width
+-max-height
+-min-height
+
+Trong thẻ inline có 2 nhóm:
+- non-replace
+-replace
+*/
+.box {
+    background: green;
+    width: 300px;
+    height: 100px;
+    
+}

@@ -1,0 +1,38 @@
+/* 
+Border: Tạo đường viền cho thẻ html
+- border-width
+- border-style: none | solid | dotted | dashed| double
+- border-color
+- border-top-width
+- border-left-width
+- border-right-width
+- border-bottom-width
+- border-top-style
+- border-left-style
+- border-right-style
+- border-bottom-style
+- border-top-color
+- border-left-color
+- border-right-color
+- border-bottom-color
+- border: style width color
+- border-top: style width color
+- border-left: style width color
+- border-right: style width color
+- border-bottom: style width color
+ */
+
+ .box {
+    /* border-width: 5px;
+    border-style: solid; */
+    /* border-color: red green blue blueviolet; */
+    /* border-top-color: red;
+    border-right-color: firebrick;
+    border-left-color:  green;
+    border-left-color: blue; */
+    border-top:  solid red;
+    border-left:  dotted rgb(208, 255, 0);
+    border-right:  dashed rgb(0, 255, 179);
+    border-bottom:  double rgb(93, 0, 255);
+    border-width: 5px;
+ }
