@@ -1,0 +1,160 @@
+* {
+ 
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: url("http://uiwebsoft.com/justlog/login-one/images/login-bg2.jpg")
+              center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .login-box {
+  width: 900px;
+  height: 480px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.login-left {
+  width: 40%;
+  background: #ff574d;
+  color: #fff;
+  padding: 50px 35px;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.logo span{
+    padding:  5px;
+    background: #fff;
+    border-radius: 5px;
+    color: #ff574d;
+}
+.login-left p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.read-more {
+  width: 130px;
+  padding: 10px;
+  border: none;
+  background: #fff;
+  color: #ff574d;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.socials i {
+  width: 35px;
+  height: 35px;
+  background: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  line-height: 35px;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.login-right {
+  width: 60%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.login-right h2 {
+  color: #272323;
+  font-size: 26px;
+  margin-bottom: 30px;
+   display: flex;
+  justify-content: center; 
+  align-items: center;
+
+}
+
+.login-right h2 span {
+  color: #ff574d;
+}
+.login-right .highlight {
+  color: #ff574d;
+  position: relative;
+}
+
+.login-right .highlight::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;      
+  width: 40px;         
+  height: 2px;         
+  background: #ff574d;
+}
+.input-box {
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #717171;
+  margin-bottom: 25px;
+}
+
+.options a {
+  text-decoration: none;
+  color: #717171;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #ff574d;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #717171;
+}
+
+.register a {
+  color: #ff574d;
+  text-decoration: none;
+  font-weight: 600;
+}  
