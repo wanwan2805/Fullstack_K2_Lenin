@@ -1,0 +1,79 @@
+* {
+
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Asap', sans-serif;
+}
+
+.investor-banner {
+  height: 260px;
+  background-image: url("https://udl.kizuna.vn/photos/2020/01/06/e9eed8529b76fa6007401cb94e94cb2d.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+}
+
+img {
+    width: 200px;
+    height: 100px;
+    margin-top: 160px;
+    margin-left: 100px;
+}
+.text-box h2 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 160px;
+  margin-left: 20px;
+}
+
+.meta {
+  color: #f1f1f1;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.investor-content {
+    display: flex;
+    align-items: center;
+}
+.number {
+    font-size: 25px;
+}
+.investor-tabs {
+  display: flex;
+  padding: 10px;
+  border: 2px solid #eee;
+  justify-content: flex-end;
+}
+
+.investor-tabs a {
+  position: relative;
+  margin-right: 20px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+
+.investor-tabs a:hover {
+  color: #bf4240;
+}
+ 
+.investor-tabs a.active {
+  color: #bf4240;
+}
+
+.investor-tabs a.active::after,
+.investor-tabs a:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #bf4240;
+} 
